@@ -1,5 +1,3 @@
-import random
-
 def reading_list():
     
     a = []
