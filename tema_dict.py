@@ -9,7 +9,7 @@ def create_list():
 
     item_list = []
 
-    for i in range(0, 10):
+    for i in range(10):
         
         x = random.choice(product_id)
         product_id.remove(x)
