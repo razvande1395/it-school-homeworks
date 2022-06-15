@@ -24,6 +24,5 @@ for i in user_message:
                 print(j, end = "")
             break
 
-
 print()
-print(f"The execution time is {time.time() - start_time} seconds")
+print(f"The execution time is {time.time() - start_time}")
