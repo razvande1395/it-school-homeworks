@@ -15,7 +15,7 @@ mobile_keys = {
     "9" : ["w", "x", "y", "z"]
 }
 
-user_message = input("Please insert the message you want to decode: ")
+user_message = input("Please insert the message for decoding: ")
 
 for i in user_message:
     for j in mobile_keys.keys():
