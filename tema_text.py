@@ -17,7 +17,7 @@ mobile_keys = {
 
 user_message = input("Please insert the message for decoding: ")
 
-for i in user_message:
+for i in user_message:                              
     for j in mobile_keys.keys():
         if i.lower() in mobile_keys[j]:
             for k in range(mobile_keys[j].index(i.lower()) + 1):
