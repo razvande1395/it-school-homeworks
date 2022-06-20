@@ -11,7 +11,7 @@ def generate_winning_numbers():
     return winning_numbers
 
 
-winning_numbers = generate_numbers()
+winning_numbers = generate_winning_numbers()
 
 print(f"The winning numbers are: {winning_numbers} ")
 
