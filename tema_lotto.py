@@ -12,6 +12,7 @@ def generate_winning_numbers():
 
 
 winning_numbers = generate_winning_numbers()
+winning_numbers.sort()
 
 print(f"The winning numbers are: {winning_numbers} ")
 
