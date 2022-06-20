@@ -1,6 +1,7 @@
 import random
 
-def generate_numbers():
+def generate_winning_numbers():
+    
     lottery_numbers = []
 
     for i in range(1, 50):
